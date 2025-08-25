@@ -1,0 +1,66 @@
+/* 通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 页面容器 */
+body {
+    display: flex;
+    justify-content: center;  /* 水平居中 */
+    align-items: flex-start;  /* 垂直方向从顶部对齐 */
+    min-height: 100vh;  /* 保证最小高度占满屏幕 */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* 容器样式 */
+.container {
+    width: 80%;  /* 设置容器宽度，或者你可以设置最大宽度 */
+    text-align: left;  /* 保证内容左对齐 */
+    padding: 20px;
+}
+
+/* 头部样式 */
+.header {
+    background-color: #fff;
+    text-align: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+/* 个人简介和副标题 */
+.txte h2, .txte h3 {
+    font-size: 1.8em;
+    margin: 20px 0 10px 0;
+}
+
+.txte p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
